@@ -1,5 +1,5 @@
 const Payment = require("../models/payment");
-const Transaction = require("../models/transaction");
+// const Transaction = require("../models/transaction");
 
 exports.createPayment = async (req, res) => {
   const { user_id, amount, currency, payment_method } = req.body;
